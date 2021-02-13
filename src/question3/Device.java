@@ -45,4 +45,8 @@ public abstract class Device {
     public void setOperatingSystem(String operatingSystem) {
         this.operatingSystem = operatingSystem;
     }
+
+    public abstract String networkType();
+
+    public abstract boolean cableConnected();
 }
